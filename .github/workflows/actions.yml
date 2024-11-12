@@ -2,7 +2,7 @@ name: Medium Writeups
 
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '0 * * * *' # 每小时运行一次
   push:
     branches:
       - main
